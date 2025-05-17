@@ -216,7 +216,7 @@
         'While running an event through the Eventix platform, a lot of information is gathered. With the help of all this data, our project group is tasked with creating a “Spotify Wrapped”-like solution which can be shared by the Eventix Customer Success team with the organizer at the end of the year.',
         'The project results include the development of both the frontend and backend, rendering it fully prepared for real-world implementation.'
       ],
-      image: '/public/img/projects/Eventix/mockup.jpg',
+      image: '/img/projects/Eventix/mockup.jpg',
       members: [
         'Andrei Sava',
         'Gabriella Geboers',
@@ -242,17 +242,17 @@
         {
           title: 'UX Flowchart',
           type: 'image',
-          src: '/public/img/projects/Eventix/uxf.jpg'
+          src: '/img/projects/Eventix/uxf.jpg'
         },
         {
           title: 'Prototypes Overview (cooperate with Gabriella & Ruben)',
           type: 'image',
-          src: '/public/img/projects/Eventix/prototypes.png'
+          src: '/img/projects/Eventix/prototypes.png'
         },
         {
           title: 'Prototype Recommendation',
           type: 'image',
-          src: '/public/img/projects/Eventix/prototypes2.png'
+          src: '/img/projects/Eventix/prototypes2.png'
         },
         {
           title: 'Frontend Development',
@@ -265,17 +265,17 @@
           title: 'Usability Test & A/B Test',
           type: 'link',
           value: [
-            {text: 'Link to Test Analysis Report', url: '/public/img/projects/Eventix/usabilityTestandABTest.pdf'}
+            {text: 'Link to Test Analysis Report', url: '/img/projects/Eventix/usabilityTestandABTest.pdf'}
           ]
         },
         {
           title: 'Test Photos',
           type: 'gallery',
           src: [
-            '/public/img/projects/Eventix/v1.png',
-            '/public/img/projects/Eventix/v2.png',
-            '/public/img/projects/Eventix/v3.png',
-            '/public/img/projects/Eventix/v4.png',
+            '/img/projects/Eventix/v1.png',
+            '/img/projects/Eventix/v2.png',
+            '/img/projects/Eventix/v3.png',
+            '/img/projects/Eventix/v4.png',
           ]
         }
       ],
@@ -292,7 +292,7 @@
         'Pinkpop is the longest existing outdoor festival and is in the Netherlands. Every year they have big acts and lots of audience. They aim to attract more audience through the interactive landmark, offering them an iconic, unique, and unforgettable experience.',
         'The final deliverable is an audio-visualization landmark that listens to live audio and generates visual displays on the landmark.'
       ],
-      image: '/public/img/projects/Pinkpop/frontImg.jpg',
+      image: '/img/projects/Pinkpop/frontImg.jpg',
       members: [
         'Rachel Baerts',
         'Riangelo Christie',
@@ -357,27 +357,27 @@
         {
           title: 'Exhibition Mockup',
           type: 'image',
-          src: '/public/img/projects/ReversePrompt/RPIntroMU.jpg'
+          src: '/img/projects/ReversePrompt/RPIntroMU.jpg'
         },
         {
           title: '',
           type: 'image',
-          src: '/public/img/projects/ReversePrompt/RPPosterInMU.jpg'
+          src: '/img/projects/ReversePrompt/RPPosterInMU.jpg'
         },
         {
           title: '',
           type: 'image',
-          src: '/public/img/projects/ReversePrompt/posters.jpg'
+          src: '/img/projects/ReversePrompt/posters.jpg'
         },
         {
           title: '',
           type: 'image',
-          src: '/public/img/projects/ReversePrompt/PXL_20220321_133710758-2.jpg'
+          src: '/img/projects/ReversePrompt/PXL_20220321_133710758-2.jpg'
         },
         {
           title: 'On-location Test',
           type: 'image',
-          src: '/public/img/projects/ReversePrompt/IMG_2637.jpg'
+          src: '/img/projects/ReversePrompt/IMG_2637.jpg'
         },
       ],
     },
@@ -398,46 +398,33 @@
         {
           title: 'Version Control',
           type: 'image',
-          src: '/public/img/projects/Effenaar/ARWebDevFlow.png'
+          src: '/img/projects/Effenaar/ARWebDevFlow.png'
         },
         {
           title: 'Web AR Development Tool Research and Analysis',
           type: 'link',
           value: [
-            {text: 'Link to Analysis Report', url: '/public/img/projects/Effenaar/ARWebsiteDevelopmentToolResearch&Analysis.pdf'}
+            {text: 'Link to Analysis Report', url: '/img/projects/Effenaar/ARWebsiteDevelopmentToolResearch&Analysis.pdf'}
           ]
         },
         {
           title: 'Personas',
           type: 'gallery',
           src: [
-            '/public/img/projects/Effenaar/persona1.jpeg',
-            '/public/img/projects/Effenaar/persona2.jpeg',
-            '/public/img/projects/Effenaar/persona3.jpeg'
+            '/img/projects/Effenaar/persona1.jpeg',
+            '/img/projects/Effenaar/persona2.jpeg',
+            '/img/projects/Effenaar/persona3.jpeg'
           ]
         },
-       
-        // {
-        //   title: 'User Stories',
-        //   type: 'text',
-        //   value: [
-        //     'As an artist I would like to have some special merch so I can stand out from other artists',
-        //     'As a fan of the artist / band who is going to perform at Effenaar, I would like to buy some special merch which only available at Effenaar and different from my other collections, in this case I purchase something value for money.',
-        //     'As a staff member from Effenaar, I would like to have some memorable on-location experiences to attract people who come to Effenaar and stay longer.',
-        //     'As a minor (age 18-) I would like to have a virtual experience at home / with friends so that I will not miss too much due to being inadmissible to the concert venue / bar.',
-        //     'As a fan of Effenaar, I would like to have a platform to save my Effenaar memories so I can look back through them and share them with my friends easily.'
-
-        //   ]
-        // },
         {
           title: 'Mockups',
           type: 'image',
-          src: '/public/img/projects/Effenaar/effenaarcard.jpg'
+          src: '/img/projects/Effenaar/effenaarcard.jpg'
         },
         {
           title: '',
           type: 'image',
-          src: '/public/img/projects/Effenaar/wristband.jpg'
+          src: '/img/projects/Effenaar/wristband.jpg'
         },
 
       ]
@@ -464,32 +451,32 @@
         {
           title: 'Project Screenshot',
           type: 'image',
-          src: '/public/img/projects/GLOW/td01.png'
+          src: '/img/projects/GLOW/td01.png'
         },
         {
           title: '',
           type: 'image',
-          src: '/public/img/projects/GLOW/td02.png'
+          src: '/img/projects/GLOW/td02.png'
         },
         {
           title: '',
           type: 'image',
-          src: '/public/img/projects/GLOW/td03.png'
+          src: '/img/projects/GLOW/td03.png'
         },
         {
           title: '',
           type: 'image',
-          src: '/public/img/projects/GLOW/td04.png'
+          src: '/img/projects/GLOW/td04.png'
         },
         {
           title: '',
           type: 'image',
-          src: '/public/img/projects/GLOW/td05.png'
+          src: '/img/projects/GLOW/td05.png'
         },
         {
           title: '',
           type: 'image',
-          src: '/public/img/projects/GLOW/td06.png'
+          src: '/img/projects/GLOW/td06.png'
         },
       ],
     },
@@ -535,7 +522,7 @@
     DynamicIdentityFontys: {
       title: 'Dynamic Identity - Fontys InnovationLab',
       video: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6979726351419244544',
-      image: '/public/img/projects/DDWDynamicIdentity/frontpageImage.png',
+      image: '/img/projects/DDWDynamicIdentity/frontpageImage.png',
       description: [
         'This project is about the dynamic identity design of Fontys InnovationLab. ',
         'There is a hall which is about the person responsible for the innovation in the Fontys ICT InnovationLab. This person’s identity is reflected, warped and abstracted. This person is you. This hall is about you and your innovative dynamic identity.',
@@ -549,7 +536,7 @@
         {
           title: 'Rapid Prototype',
           type: 'image',
-          src: '/public/img/projects/DyIdII/rapidprototype.jpg'
+          src: '/img/projects/DyIdII/rapidprototype.jpg'
         },
         {
           title: '',
@@ -559,7 +546,7 @@
         {
           title: 'Touch Designer Workflow',
           type: 'image',
-          src: '/public/img/projects/DyIdII/tdfile.png'
+          src: '/img/projects/DyIdII/tdfile.png'
         },
         {
           title: 'Prototype',
