@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+/* Dfault Settings */
+* {
+   background-color: var(--color-light);
+   font-family: var(--font-outfit);
+   font-weight: 300;
+   accent-color: var(--color-aqua);  
+}
+
+/* Text Highlight */
+::selection {
+  background: var(--color-aqua);
+  color: var(--color-light);
+}
+
+/* My Customized Theme */
+@theme {
+  --color-light: #F1EFEF;
+  --color-l2: #D0D0D0;
+  --color-mid: #A6A6A6;
+  --color-d2: #595959;
+  --color-dark: #1E1E1E;
+  --color-aqua: #A8DADC;
+  --font-outfit: "outfit", "sans-serif";
+  --font-weight-extrablack: 2000; 
+}
+
+/* Elements */
+p {
+  color: var(--color-dark);
+  font-size: 1rem;
+}
+
+h1 {
+  color: var(--color-dark);
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
