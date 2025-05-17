@@ -183,26 +183,26 @@
         {
           title: 'On Location Implementation',
           type: 'image',
-          src: '/public/img/projects/Viviad/IMG_1779.jpg'
+          src: '/img/projects/Viviad/IMG_1779.jpg'
         },
 
         {
           title: 'Presentation',
           type: 'image',
-          src: '/public/img/projects/Viviad/IMG_1965.jpg'
+          src: '/img/projects/Viviad/IMG_1965.jpg'
         },
 
         {
           title: 'Research Questions & Methods',
           type: 'image',
-          src: '/public/img/projects/Viviad/researchMethods.png'
+          src: '/img/projects/Viviad/researchMethods.png'
         },
 
         {
           title: 'Timeline',
           type: 'PDF',
           name: 'Canon Viviad Project Timeline',
-          src: '/public/img/projects/Viviad/Timeline.pdf'
+          src: '/img/projects/Viviad/Timeline.pdf'
         }
       ],
     },
