@@ -23,11 +23,29 @@
       <div 
           v-if="projectData.members"
           class="mb-4">
-        <h2>Group Members: </h2>    
+        <h2>Group Members</h2>    
         <p
           v-for="(para, index) in projectData.members" :key="index">
           {{ para }}
           </p>
+      </div>
+      
+      <img 
+        v-if="projectData.memberspic"  
+        :src="projectData.memberspic" 
+        alt="Group Members Pic" 
+        class="w-[80vw] max-h-[98vh] h-auto object-contain object-left mb-4 ml-4"/>
+
+      <!-- Project Highlight -->
+       <div 
+        v-if="projectData.highlight"
+        class="mb-4">
+        <h2 class="mb-4">Highlight</h2>
+        <div class="mb-4">  
+          <p v-for="(para, index) in projectData.highlight" :key="index">
+            {{ para }}
+            </p>
+        </div>
       </div>
 
       <!-- Project Short Intro -->
@@ -173,13 +191,27 @@
         'In the mission to promote a customer mindset within the organization, R&D created a permanent physical place to “experience” insights: The Experience Plaza. In this case, creating an interactive work / installation might be useful to show specific information instead of a report or current passive information presentation.',
         'Therefore, the project goal is come up with a solution to share internally (R&D), customer/ user/ market information, in an engaging, interactive, creative, tangible and storytelling way instead of reading reports.'
       ],
+      highlight: [
+        'Physical Sample & Digital Infomation',
+        'AI Image Recognition',
+        'NFC Recognition',
+        'Fullstack Development',
+        'Digital Sticy-Note for Communication',
+      ],
+
       tool: [
-        'Software: Figma, JavaScript, Adobe Suite',
+        'Software: Figma, JavaScript, Adobe Suite, Python, SharePoint',
         'Hardware: Touchscreen, Webcam'
 
       ],
       video: 'https://www.youtube.com/embed/JzEWey25DSw?si=PLwVtmm9iJLIhpQs',
       work: [
+        {
+          title: 'User Guideline Animation',
+          type: 'video',
+          src: 'https://www.youtube.com/embed/lTw2uJhMUuU',
+        },
+
         {
           title: 'On Location Implementation',
           type: 'image',
@@ -222,8 +254,9 @@
         'Gabriella Geboers',
         'Ruben van de Ven',
         'Stefan Popescu',
-        'Xinru Bao'
+        'Xinru Bao',
       ],
+      memberspic: '/img/projects/Eventix/1687468392568.jpeg',
       tool: [
         'Adobe XD, Adobe Illustrator, HTML, CSS,',
         'JavaScript, Python, Github'
@@ -277,7 +310,17 @@
             '/img/projects/Eventix/v3.png',
             '/img/projects/Eventix/v4.png',
           ]
-        }
+        },
+        {
+          title: 'Demo Videos',
+          type: 'video',
+          src: 'https://www.youtube.com/embed/EtWYWyuLdGY'
+        },
+        {
+          title: '',
+          type: 'video',
+          src: 'https://www.youtube.com/embed/LjpNUOk2xnA'
+        },
       ],
     },
 
@@ -327,7 +370,7 @@
 
         // 2 prototype videos
         {
-          title: 'Final Prototype',
+          title: 'Final Demo Video',
           type: 'video',
           src:'https://www.youtube.com/embed/XmPW4rfL-TA',
         },
@@ -426,7 +469,11 @@
           type: 'image',
           src: '/img/projects/Effenaar/wristband.jpg'
         },
-
+        {
+          title: 'Final Demo Video',
+          type: 'video',
+          src:'https://www.youtube.com/embed/xh9witxxQ2w',
+        },
       ]
     },
 
